@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinControlApp</string>
+    <string name="app_name_main">FinControl</string>
+    <string name="logo">Logo</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</string>
+    <string name="btn_forgot_password">Forgot Password?</string>
+    <string name="btn_register">Registrar</string>
+    <string name="btn_login">Login</string>
+    <string name="welcome_main_text">Bem-vindo! Este aplicativo foi feito para que você possa gerir sua Micro Empresa</string>
+    <string name="welcome_text">Bem-vindo</string>
+    <string name="hint_password">● ● ● ● ● ● ● ● ● ● ● ●</string>
+    <string name="field_password_text">Password</string>
+    <string name="hint_email_text">example@example.com</string>
+    <string name="field_login_text">Login</string>
+</resources>

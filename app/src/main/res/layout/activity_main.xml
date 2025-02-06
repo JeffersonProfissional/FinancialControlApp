@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo_app"
+        android:contentDescription="@string/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_main"
+        android:textSize="52sp"
+        android:textColor="@color/main_dark_blue"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_main_text"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/black_app"
+        android:paddingTop="8dp"
+        android:paddingBottom="24dp"/>
+
+    <!-- Botão de Login -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:text="@string/btn_login"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/main_dark_blue"
+        android:textColor="@color/btn_black"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botão de Cadastro -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="207dp"
+        android:layout_height="48dp"
+        android:text="@string/btn_register"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        android:backgroundTint="@color/light_blue"
+        android:textColor="@color/btn_black"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_forgot_password"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="14sp"
+        android:textColor="@color/btn_black"
+        android:gravity="center"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
