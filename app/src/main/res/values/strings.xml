@@ -12,4 +12,13 @@
     <string name="field_password_text">Password</string>
     <string name="hint_email_text">example@example.com</string>
     <string name="field_login_text">Login</string>
+    <string name="name_field">Nome</string>
+    <string name="email_field">Email</string>
+    <string name="document_field">CPF/CNPJ</string>
+    <string name="password_field">Senha</string>
+    <string name="document_hint_text">99.999.999/0001-99</string>
+    <string name="return_login_btn">Ja tem uma conta? Log In</string>
+    <string name="confirm_password_field">Confirme sua senha</string>
+    <string name="recover_password_text">Recuperar senha</string>
+    <string name="email_hint">Digite seu e-mail</string>
 </resources>
